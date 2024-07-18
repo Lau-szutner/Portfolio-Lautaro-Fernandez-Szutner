@@ -1,9 +1,9 @@
 <script setup></script>
 
 <template>
-  <div id="contenedor" class="container-fluid bg-dark p-4">
+  <div id="contenedor" class="container-fluid p-4">
     <ul
-      class="list-unstyled d-flex gap-5 justify-content-center align-items-center m-0 text-white"
+      class="list-unstyled d-flex gap-5 justify-content-center align-items-center m-0"
     >
       <li>Inicio</li>
       <li>Quién soy</li>
@@ -15,27 +15,13 @@
 </template>
 
 <style lang="scss" scoped>
-// .menu {
-//   color: white;
-//   list-style: none;
-//   display: flex;
-//   justify-content: flex-end; /* Alinea los elementos a la derecha */
-//   align-items: center; /* Centra verticalmente los elementos */
-//   height: 60px; /* Altura del menú */
-//   background-color: rgb(58, 17, 17);
-// }
+#contenedor {
+  background-color: black;
+}
 
-// .menu li {
-//   margin: 0 10px; /* Margen entre elementos del menú */
-//   cursor: pointer;
-// }
-
-// .menu li:hover {
-//   text-decoration: underline; /* Subraya el texto al pasar el mouse */
-// }
-
-// #contenedor {
-//   height: 1000px;
-//   background-color: aqua;
-// }
+#contenedor li {
+  color: white;
+  font-size: 2em;
+  font-weight: 1;
+}
 </style>
