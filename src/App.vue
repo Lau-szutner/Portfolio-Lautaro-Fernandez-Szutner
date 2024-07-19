@@ -17,5 +17,6 @@ import "./assets/css/normalize.css";
 <style scoped>
 img {
   width: 100vw;
+  height: 100%;
 }
 </style>
