@@ -1,6 +1,6 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
-import Home from "./components/Home.vue";
+import HomeInto from "./components/HomeIntro.vue";
 // import TrianglePattern from "./components/TrianglePattern.vue";
 
 // Importar el CSS de forma estándar
@@ -9,14 +9,7 @@ import "./assets/css/normalize.css";
 
 <template>
   <Navbar></Navbar>
-  <img src="./assets/img/Header.png" alt="" />
-  <!-- <TrianglePattern></TrianglePattern> -->
-  <Home></Home>
+  <HomeInto></HomeInto>
 </template>
 
-<style scoped>
-img {
-  width: 100vw;
-  height: 100%;
-}
-</style>
+<style scoped></style>

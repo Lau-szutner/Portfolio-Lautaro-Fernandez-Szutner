@@ -20,8 +20,11 @@
 }
 
 #contenedor li {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: white;
   font-size: 2em;
-  font-weight: 1;
+  font-weight: 300;
 }
 </style>
