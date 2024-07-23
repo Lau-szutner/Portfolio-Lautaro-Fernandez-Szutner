@@ -1,14 +1,17 @@
 <template>
   <section class="home-intro">
     <div
-      class="d-flex flex-column justify-content-center align-items-center vh-100 col-6 d-block"
+      class="d-flex flex-column justify-content-center align-items-center vh-100 col-6"
     >
-      <h1>
+      <h1 class="d-flex flex-column align-items-start">
         <span>Lautaro</span>
         <span>Fernandez</span>
         <span>Szutner</span>
       </h1>
-      <p>{{ introduction }}</p>
+      <div class="d-flex flex-column align-items-start w-50">
+        <p>Diseñador</p>
+        <p>& Programador web</p>
+      </div>
     </div>
     <img src="../assets/img/Header.png" alt="" class="" />
   </section>
@@ -30,20 +33,16 @@ const introduction = ref("Diseñador & Programador web");
   font-weight: 700;
   font-size: 4em;
   font-style: italic;
-  color: rgb(0, 129, 241);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  color: var(--header-color);
 }
 .home-intro p {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 500;
   font-style: italic;
-  font-size: 1.25rem;
-  color: #ec0a0a;
+  font-size: 2rem;
+  color: var(--text-color);
   margin-bottom: 0px;
-  display: flex;
 }
 
 img {
