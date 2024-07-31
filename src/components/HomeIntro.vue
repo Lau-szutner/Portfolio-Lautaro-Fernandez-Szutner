@@ -46,8 +46,8 @@ const introduction = ref("Diseñador & Programador web");
 }
 
 img {
-  width: 100vw;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
 }
 section {
   display: flex;

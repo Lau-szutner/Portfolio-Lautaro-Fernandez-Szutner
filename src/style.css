@@ -2,3 +2,34 @@
   --header-color: #0077b6;
   --text-color: #caf0f8;
 }
+
+/* Estilo general de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento vertical */
+  height: 10px; /* Altura de la barra de desplazamiento horizontal */
+}
+
+/* Estilo del "dedo" de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #8888888c; /* Color del "dedo" */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del "dedo" al pasar el cursor por encima */
+::-webkit-scrollbar-thumb:hover {
+  background: #585858; /* Color del "dedo" al pasar el cursor por encima */
+}
+
+/* Estilo de la pista de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #f1f1f143; /* Color de la pista */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo de la pista al pasar el cursor por encima */
+::-webkit-scrollbar-track:hover {
+  background: #e1e1e100; /* Color de la pista al pasar el cursor por encima */
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
