@@ -13,7 +13,7 @@
         <p>& Programador web</p>
       </div>
     </div>
-    <img src="../assets/img/Header.png" alt="" class="" />
+    <img src="../assets/img/background.png" alt="" class="" />
   </section>
 </template>
 
@@ -46,7 +46,7 @@ const introduction = ref("Diseñador & Programador web");
 }
 
 img {
-  height: 100vh;
+  height: fit-content;
   width: 100%;
 }
 section {
